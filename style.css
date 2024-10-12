@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", sans-serif;
+}
+
+section {
+  margin: 40px 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-size: 24px;
+}
+
+.section-heading {
+  text-align: center;
+}
+.section-heading h2 {
+  font-weight: 600;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* End of Common Styles */
+
+.navbar {
+  margin: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
