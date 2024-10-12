@@ -9,7 +9,7 @@
 }
 
 section {
-  margin: 40px 0;
+  margin: 60px 10%;
 }
 
 p {
@@ -66,3 +66,27 @@ button {
   color: #fff;
 }
 /* End of Banner Section */
+
+/* Card section */
+.section-2 {
+  background-color: #eee;
+  padding: 20px 40px;
+}
+.section-heading {
+  margin: 40px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.card p {
+  margin: 20px 0;
+}
+/* End of Card section */
