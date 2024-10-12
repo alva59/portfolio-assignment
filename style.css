@@ -36,11 +36,33 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
+
+/* img {
+  width: 100%;
+} */
 /* End of Common Styles */
 
+/* Banner Section */
 .navbar {
   margin: 40px 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.banner {
+  background-image: url(assets/Hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+  text-align: center;
+}
+.banner p {
+  margin: 20px 0;
+}
+
+.banner-btn {
+  background-color: #000;
+  color: #fff;
+}
+/* End of Banner Section */
