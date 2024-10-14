@@ -99,6 +99,10 @@ button {
   margin: 20px 0;
 }
 
+.card-btn {
+  border-radius: 0;
+}
+
 .video-part {
   border: 1px solid #0d1321;
   border-radius: 10px;
