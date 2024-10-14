@@ -112,3 +112,67 @@ button {
   overflow: hidden;
 }
 /* End of Card section */
+
+/* Section 4 */
+.current-target-cards {
+  display: flex;
+}
+
+.current-card {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.current-card p {
+  margin: 20px 0;
+}
+
+.html-card,
+.css-card,
+.js-card {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.html-card {
+  background-color: #ff390617;
+}
+.css-card {
+  background-color: #004ce817;
+  margin: 0 20px;
+}
+.js-card {
+  background-color: #ffdf002b;
+}
+
+.current-card a {
+  color: #0d1321;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* End of Section 4 */
+
+/* Section 5 */
+.next-card {
+  display: flex;
+  margin-bottom: 40px;
+  border: 1px solid #0d132111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.next-card img {
+  width: 120px;
+  height: 100%;
+  margin-right: 40px;
+  object-fit: contain;
+}
+
+.next-card-description p {
+  margin: 10px 0;
+}
+
+.next-card-description a {
+  color: #0d1321;
+}
+/* End of Section 5 */
